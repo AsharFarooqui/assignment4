@@ -1,0 +1,98 @@
+/* ===============================================================================
+                                Navigation Area
+================================================================================== */
+
+.navbar {
+    background-color: rgb(240, 25, 6) !important;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-weight: bold !important;
+    font-size: 20px;
+}
+.nav-link:hover{
+    text-shadow: 5px 3px 4px black;
+    background-color: gainsboro;
+    border-radius: 20px;
+    /* color: #000 !important; */
+}
+.navbar-brand>img {
+    width: auto;
+    height: 60px;
+}
+
+.navbar-text>input {
+    height: 40px;
+    width: 300px;
+    color: gray;
+}
+.navbar-toggler{
+    background-color: #fff;
+    border-radius: 10px;
+    
+}
+.navbar-toggler:hover{
+    /* box-shadow: 6px 2px 10px rgb(255, 255, 255); */
+    color: #fff !important;
+    background-color: rgb(235, 235, 235);
+}
+span>.navbar-toggler-icon:hover{
+    color: #fff;
+}
+/* ===============================================================================
+                                    Cardss Area
+================================================================================== */
+
+.container {
+    margin-top: 10%;
+}
+.card_text{
+    margin: 20px 10px 20px 10px;
+    /* background-color: rgb(49, 39, 39); */
+    /* color: #fff; */
+}
+h1{
+    font-size: 50px;
+    padding: 20px 10px 20px 10px;
+    text-shadow: 3px 3px 12px #FF0108, 3px 3px 13px rgb(1, 11, 153);
+    font-family: fantasy;
+}
+.card_text:hover{
+    /* box-shadow:  3px 3px 12px rgb(214, 0, 7), 3px 3px 13px rgb(4, 11, 112); */
+    /* background-color: rgb(240, 25, 6) !important; */
+    color: rgb(207, 44, 44);
+    text-shadow: 3px 3px 12px #000;
+}
+
+.card {
+    margin: 30px 10px 20px 10px;
+    padding: 40px 10px 30px 10px;
+}
+
+.btn-success {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:rgb(240, 25, 6);
+    transition: 1s;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: rgb(6, 64, 255);
+}
+.card:hover{
+    box-shadow: 5px 4px 15px black;
+}
+
+/* ===============================================================================
+                                    Footer Area
+================================================================================== */
+
+.copy-right_text {
+    background-color: rgb(21, 142, 255);
+    height: 5%;
+    margin-top: 10%;
+    padding-top: 2%;
+    font-weight: 600;
+}
